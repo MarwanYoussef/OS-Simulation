@@ -1,0 +1,26 @@
+PID: 1, State: NEW, Size:16640, Request Time: 18, Memory Use: false, Memory Location: 0, Priority: 3, Disk: false, DiskLoc: 0
+PID: 2, State: NEW, Size:2048, Request Time: 4, Memory Use: true, Memory Location: 377, Priority: 8, Disk: true, DiskLoc: 0
+PID: 3, State: NEW, Size:16640, Request Time: 24, Memory Use: true, Memory Location: 288, Priority: 2, Disk: false, DiskLoc: 0
+Process 1 Process will be executed
+Processor will require 18 seconds
+PID: 1, State: Running, Size:16640, Request Time: 18, Memory Use: false, Memory Location: 0, Priority: 3, Disk: false, DiskLoc: 0
+Process 1 Finished executing
+PID: 1, State: Terminated, Size:16640, Request Time: 18, Memory Use: false, Memory Location: 0, Priority: 3, Disk: false, DiskLoc: 0
+Process 1 will be deleted now
+Removing: PID: 1, State: Terminated, Size:16640, Request Time: 18, Memory Use: false, Memory Location: 0, Priority: 3, Disk: false, DiskLoc: 0
+Semaphore is now being used for process 2
+Process 2 Process will be executed
+Processor will require 4 secondsPID: 2, State: Running, Size:2048, Request Time: 4, Memory Use: true, Memory Location: 377, Priority: 8, Disk: true, DiskLoc: 0
+Process 2 Finished executing
+PID: 2, State: Terminated, Size:2048, Request Time: 4, Memory Use: true, Memory Location: 377, Priority: 8, Disk: true, DiskLoc: 0
+Process 2 released the Semaphore key
+Process 2 will be deleted now
+Removing: PID: 2, State: Terminated, Size:2048, Request Time: 4, Memory Use: true, Memory Location: 377, Priority: 8, Disk: true, DiskLoc: 0
+Semaphore is now being used for process 3
+Process 3 Process will be executed
+Processor will require 24 secondsPID: 3, State: Running, Size:16640, Request Time: 24, Memory Use: true, Memory Location: 288, Priority: 2, Disk: false, DiskLoc: 0
+Process 3 Finished executing
+PID: 3, State: Terminated, Size:16640, Request Time: 24, Memory Use: true, Memory Location: 288, Priority: 2, Disk: false, DiskLoc: 0
+Process 3 released the Semaphore key
+Process 3 will be deleted now
+Removing: PID: 3, State: Terminated, Size:16640, Request Time: 24, Memory Use: true, Memory Location: 288, Priority: 2, Disk: false, DiskLoc: 0
